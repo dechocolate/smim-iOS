@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CAEDCBF41FA70E58005B2F01 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CAEDCBF31FA70E58005B2F01 /* AppDelegate.m */; };
+		CAEDCBF71FA70E58005B2F01 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAEDCBF61FA70E58005B2F01 /* ViewController.m */; };
+		CAEDCBFA1FA70E58005B2F01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAEDCBF81FA70E58005B2F01 /* Main.storyboard */; };
+		CAEDCBFC1FA70E58005B2F01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAEDCBFB1FA70E58005B2F01 /* Assets.xcassets */; };
+		CAEDCBFF1FA70E58005B2F01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAEDCBFD1FA70E58005B2F01 /* LaunchScreen.storyboard */; };
+		CAEDCC021FA70E58005B2F01 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CAEDCC011FA70E58005B2F01 /* main.m */; };
+		CAEDCC0C1FA70E58005B2F01 /* smim_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CAEDCC0B1FA70E58005B2F01 /* smim_iOSTests.m */; };
+		CAEDCC171FA70E58005B2F01 /* smim_iOSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CAEDCC161FA70E58005B2F01 /* smim_iOSUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CAEDCC081FA70E58005B2F01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAEDCBE71FA70E58005B2F01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAEDCBEE1FA70E58005B2F01;
+			remoteInfo = "smim-iOS";
+		};
+		CAEDCC131FA70E58005B2F01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAEDCBE71FA70E58005B2F01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAEDCBEE1FA70E58005B2F01;
+			remoteInfo = "smim-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CAEDCBEF1FA70E58005B2F01 /* smim-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "smim-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAEDCBF21FA70E58005B2F01 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CAEDCBF31FA70E58005B2F01 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CAEDCBF51FA70E58005B2F01 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CAEDCBF61FA70E58005B2F01 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CAEDCBF91FA70E58005B2F01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CAEDCBFB1FA70E58005B2F01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CAEDCBFE1FA70E58005B2F01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CAEDCC001FA70E58005B2F01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAEDCC011FA70E58005B2F01 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CAEDCC071FA70E58005B2F01 /* smim-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "smim-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAEDCC0B1FA70E58005B2F01 /* smim_iOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = smim_iOSTests.m; sourceTree = "<group>"; };
+		CAEDCC0D1FA70E58005B2F01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAEDCC121FA70E58005B2F01 /* smim-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "smim-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAEDCC161FA70E58005B2F01 /* smim_iOSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = smim_iOSUITests.m; sourceTree = "<group>"; };
+		CAEDCC181FA70E58005B2F01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAEDCBEC1FA70E58005B2F01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAEDCC041FA70E58005B2F01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAEDCC0F1FA70E58005B2F01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CAEDCBE61FA70E58005B2F01 = {
+			isa = PBXGroup;
+			children = (
+				CAEDCBF11FA70E58005B2F01 /* smim-iOS */,
+				CAEDCC0A1FA70E58005B2F01 /* smim-iOSTests */,
+				CAEDCC151FA70E58005B2F01 /* smim-iOSUITests */,
+				CAEDCBF01FA70E58005B2F01 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CAEDCBF01FA70E58005B2F01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAEDCBEF1FA70E58005B2F01 /* smim-iOS.app */,
+				CAEDCC071FA70E58005B2F01 /* smim-iOSTests.xctest */,
+				CAEDCC121FA70E58005B2F01 /* smim-iOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAEDCBF11FA70E58005B2F01 /* smim-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CAEDCBF21FA70E58005B2F01 /* AppDelegate.h */,
+				CAEDCBF31FA70E58005B2F01 /* AppDelegate.m */,
+				CAEDCBF51FA70E58005B2F01 /* ViewController.h */,
+				CAEDCBF61FA70E58005B2F01 /* ViewController.m */,
+				CAEDCBF81FA70E58005B2F01 /* Main.storyboard */,
+				CAEDCBFB1FA70E58005B2F01 /* Assets.xcassets */,
+				CAEDCBFD1FA70E58005B2F01 /* LaunchScreen.storyboard */,
+				CAEDCC001FA70E58005B2F01 /* Info.plist */,
+				CAEDCC011FA70E58005B2F01 /* main.m */,
+			);
+			path = "smim-iOS";
+			sourceTree = "<group>";
+		};
+		CAEDCC0A1FA70E58005B2F01 /* smim-iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				CAEDCC0B1FA70E58005B2F01 /* smim_iOSTests.m */,
+				CAEDCC0D1FA70E58005B2F01 /* Info.plist */,
+			);
+			path = "smim-iOSTests";
+			sourceTree = "<group>";
+		};
+		CAEDCC151FA70E58005B2F01 /* smim-iOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CAEDCC161FA70E58005B2F01 /* smim_iOSUITests.m */,
+				CAEDCC181FA70E58005B2F01 /* Info.plist */,
+			);
+			path = "smim-iOSUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAEDCBEE1FA70E58005B2F01 /* smim-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAEDCC1B1FA70E58005B2F01 /* Build configuration list for PBXNativeTarget "smim-iOS" */;
+			buildPhases = (
+				CAEDCBEB1FA70E58005B2F01 /* Sources */,
+				CAEDCBEC1FA70E58005B2F01 /* Frameworks */,
+				CAEDCBED1FA70E58005B2F01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "smim-iOS";
+			productName = "smim-iOS";
+			productReference = CAEDCBEF1FA70E58005B2F01 /* smim-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CAEDCC061FA70E58005B2F01 /* smim-iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAEDCC1E1FA70E58005B2F01 /* Build configuration list for PBXNativeTarget "smim-iOSTests" */;
+			buildPhases = (
+				CAEDCC031FA70E58005B2F01 /* Sources */,
+				CAEDCC041FA70E58005B2F01 /* Frameworks */,
+				CAEDCC051FA70E58005B2F01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAEDCC091FA70E58005B2F01 /* PBXTargetDependency */,
+			);
+			name = "smim-iOSTests";
+			productName = "smim-iOSTests";
+			productReference = CAEDCC071FA70E58005B2F01 /* smim-iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CAEDCC111FA70E58005B2F01 /* smim-iOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAEDCC211FA70E58005B2F01 /* Build configuration list for PBXNativeTarget "smim-iOSUITests" */;
+			buildPhases = (
+				CAEDCC0E1FA70E58005B2F01 /* Sources */,
+				CAEDCC0F1FA70E58005B2F01 /* Frameworks */,
+				CAEDCC101FA70E58005B2F01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAEDCC141FA70E58005B2F01 /* PBXTargetDependency */,
+			);
+			name = "smim-iOSUITests";
+			productName = "smim-iOSUITests";
+			productReference = CAEDCC121FA70E58005B2F01 /* smim-iOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAEDCBE71FA70E58005B2F01 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = dechocolate;
+				TargetAttributes = {
+					CAEDCBEE1FA70E58005B2F01 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					CAEDCC061FA70E58005B2F01 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CAEDCBEE1FA70E58005B2F01;
+					};
+					CAEDCC111FA70E58005B2F01 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CAEDCBEE1FA70E58005B2F01;
+					};
+				};
+			};
+			buildConfigurationList = CAEDCBEA1FA70E58005B2F01 /* Build configuration list for PBXProject "smim-iOS" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CAEDCBE61FA70E58005B2F01;
+			productRefGroup = CAEDCBF01FA70E58005B2F01 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAEDCBEE1FA70E58005B2F01 /* smim-iOS */,
+				CAEDCC061FA70E58005B2F01 /* smim-iOSTests */,
+				CAEDCC111FA70E58005B2F01 /* smim-iOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CAEDCBED1FA70E58005B2F01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAEDCBFF1FA70E58005B2F01 /* LaunchScreen.storyboard in Resources */,
+				CAEDCBFC1FA70E58005B2F01 /* Assets.xcassets in Resources */,
+				CAEDCBFA1FA70E58005B2F01 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAEDCC051FA70E58005B2F01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAEDCC101FA70E58005B2F01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAEDCBEB1FA70E58005B2F01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAEDCBF71FA70E58005B2F01 /* ViewController.m in Sources */,
+				CAEDCC021FA70E58005B2F01 /* main.m in Sources */,
+				CAEDCBF41FA70E58005B2F01 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAEDCC031FA70E58005B2F01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAEDCC0C1FA70E58005B2F01 /* smim_iOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAEDCC0E1FA70E58005B2F01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAEDCC171FA70E58005B2F01 /* smim_iOSUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CAEDCC091FA70E58005B2F01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAEDCBEE1FA70E58005B2F01 /* smim-iOS */;
+			targetProxy = CAEDCC081FA70E58005B2F01 /* PBXContainerItemProxy */;
+		};
+		CAEDCC141FA70E58005B2F01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAEDCBEE1FA70E58005B2F01 /* smim-iOS */;
+			targetProxy = CAEDCC131FA70E58005B2F01 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CAEDCBF81FA70E58005B2F01 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAEDCBF91FA70E58005B2F01 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CAEDCBFD1FA70E58005B2F01 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAEDCBFE1FA70E58005B2F01 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CAEDCC191FA70E58005B2F01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CAEDCC1A1FA70E58005B2F01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CAEDCC1C1FA70E58005B2F01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HXU23UYV46;
+				INFOPLIST_FILE = "smim-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.-dechocolate.smim-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CAEDCC1D1FA70E58005B2F01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HXU23UYV46;
+				INFOPLIST_FILE = "smim-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.-dechocolate.smim-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CAEDCC1F1FA70E58005B2F01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HXU23UYV46;
+				INFOPLIST_FILE = "smim-iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.-dechocolate.smim-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/smim-iOS.app/smim-iOS";
+			};
+			name = Debug;
+		};
+		CAEDCC201FA70E58005B2F01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HXU23UYV46;
+				INFOPLIST_FILE = "smim-iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.-dechocolate.smim-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/smim-iOS.app/smim-iOS";
+			};
+			name = Release;
+		};
+		CAEDCC221FA70E58005B2F01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HXU23UYV46;
+				INFOPLIST_FILE = "smim-iOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.-dechocolate.smim-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "smim-iOS";
+			};
+			name = Debug;
+		};
+		CAEDCC231FA70E58005B2F01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HXU23UYV46;
+				INFOPLIST_FILE = "smim-iOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.-dechocolate.smim-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "smim-iOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAEDCBEA1FA70E58005B2F01 /* Build configuration list for PBXProject "smim-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAEDCC191FA70E58005B2F01 /* Debug */,
+				CAEDCC1A1FA70E58005B2F01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAEDCC1B1FA70E58005B2F01 /* Build configuration list for PBXNativeTarget "smim-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAEDCC1C1FA70E58005B2F01 /* Debug */,
+				CAEDCC1D1FA70E58005B2F01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAEDCC1E1FA70E58005B2F01 /* Build configuration list for PBXNativeTarget "smim-iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAEDCC1F1FA70E58005B2F01 /* Debug */,
+				CAEDCC201FA70E58005B2F01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAEDCC211FA70E58005B2F01 /* Build configuration list for PBXNativeTarget "smim-iOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAEDCC221FA70E58005B2F01 /* Debug */,
+				CAEDCC231FA70E58005B2F01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CAEDCBE71FA70E58005B2F01 /* Project object */;
+}
