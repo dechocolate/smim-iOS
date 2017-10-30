@@ -20,6 +20,7 @@
 		CAEDCC171FA70E58005B2F01 /* smim_iOSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CAEDCC161FA70E58005B2F01 /* smim_iOSUITests.m */; };
 		CAEDCC251FA7104E005B2F01 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = CAEDCC241FA7104E005B2F01 /* README.md */; };
 		CAEDCC2C1FA710C9005B2F01 /* SMLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAEDCC2B1FA710C9005B2F01 /* SMLoginViewController.m */; };
+		CAEDCC2E1FA71145005B2F01 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAEDCC2D1FA71145005B2F01 /* Login.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 		CAEDCC241FA7104E005B2F01 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		CAEDCC2A1FA710C9005B2F01 /* SMLoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMLoginViewController.h; sourceTree = "<group>"; };
 		CAEDCC2B1FA710C9005B2F01 /* SMLoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMLoginViewController.m; sourceTree = "<group>"; };
+		CAEDCC2D1FA71145005B2F01 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		D0576087E6B3E32AD86DE46B /* Pods-smim-iOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-smim-iOSUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-smim-iOSUITests/Pods-smim-iOSUITests.release.xcconfig"; sourceTree = "<group>"; };
 		D9F5AB4D617719F63D91DC13 /* Pods-smim-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-smim-iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-smim-iOS/Pods-smim-iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		E0B86DC548AAC6A419A18201 /* Pods-smim-iOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-smim-iOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-smim-iOSTests/Pods-smim-iOSTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -179,6 +181,7 @@
 			isa = PBXGroup;
 			children = (
 				CAEDCBF81FA70E58005B2F01 /* Main.storyboard */,
+				CAEDCC2D1FA71145005B2F01 /* Login.storyboard */,
 			);
 			path = StoryBoards;
 			sourceTree = "<group>";
@@ -330,6 +333,7 @@
 				CAEDCBFF1FA70E58005B2F01 /* LaunchScreen.storyboard in Resources */,
 				CAEDCBFC1FA70E58005B2F01 /* Assets.xcassets in Resources */,
 				CAEDCC251FA7104E005B2F01 /* README.md in Resources */,
+				CAEDCC2E1FA71145005B2F01 /* Login.storyboard in Resources */,
 				CAEDCBFA1FA70E58005B2F01 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
